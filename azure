@@ -1,3 +1,9 @@
 # Simple output and input
 name = input('What is your name? ')
-print(f'Hello, {name}!')
+print(f'Hello, {name}!'
+
+level 2
+# Creating a new list efficiently
+fruits = ['banana', 'apple', 'lime']
+loud_fruits = [fruit.upper() for fruit in fruits]
+print(loud_fruits)  # Output: ['BANANA', 'APPLE', 'LIME'])
